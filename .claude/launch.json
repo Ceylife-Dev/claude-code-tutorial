@@ -1,0 +1,17 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "summit-api",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "dev", "--prefix", "summit-view/server"],
+      "port": 5000
+    },
+    {
+      "name": "summit-web",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "dev", "--prefix", "summit-view/client"],
+      "port": 5173
+    }
+  ]
+}
